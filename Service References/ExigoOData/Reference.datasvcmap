@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2c67bf18-3ad6-456a-8a02-1028ec18bc42" xmlns="urn:schemas-microsoft-com:xml-dataservicemap">
+  <MetadataSources>
+    <MetadataSource Address="http://api.exigo.com/4.0/strongbrook/model" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.edmx" MetadataType="Edmx" ID="0aa57f24-a1b7-44c0-9763-353d25f534ec" SourceId="1" SourceUrl="http://api.exigo.com/4.0/strongbrook/model" />
+  </Metadata>
+  <Extensions />
+  <Parameters />
+</ReferenceGroup>

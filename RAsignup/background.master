@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="background.master.cs" Inherits="RAsignup_background" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Strongbrook - The Time is Now!</title>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="main-wrapper">
+
+            <div class="header-content">
+                <div id="header-rep-info-container">
+
+                    <asp:Label ID="lblFirstName" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblLastName" runat="server" Text=""></asp:Label><br />
+                    <asp:Label ID="lblPhone" runat="server" Text=""></asp:Label><br />
+
+                </div>
+            </div>
+
+
+
+            <div class="video-container">
+                <div class="video">
+                    <iframe id="viddler-5ce7a1e9" src="//www.viddler.com/embed/5ce7a1e9/?f=1&amp;autoplay=1&amp;player=full&amp;secret=32921810&amp;loop=0&amp;nologo=1&amp;hd=1" width="521" height="346" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+
+
+
+            <div class="cta-container" id="cta-container">
+                <asp:ContentPlaceHolder ID="Content" runat="server" />
+            </div>
+
+            <div class="copyright-container">Copyright 2012 Strongbrook</div>
+
+        </div>
+    </form>
+</body>
+</html>

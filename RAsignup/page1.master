@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="page1.master.cs" Inherits="RAsignup_page1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Strongbrook - The Time is Now!</title>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="main-wrapper">
+
+            <div class="header-content">
+                <div id="header-rep-info-container">
+
+                    <asp:Label ID="lblFirstName" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblLastName" runat="server" Text=""></asp:Label><br />
+                    <asp:Label ID="lblPhone" runat="server" Text=""></asp:Label><br />
+
+                </div>
+            </div>
+
+            <div class="video-container">
+                <div class="video">
+                    <div id='mediaspace'>Video Loading...Please Wait</div>
+                </div>
+            </div>
+
+            <div class="cta-container" id="cta-container">
+                <asp:ContentPlaceHolder ID="Content" runat="server" />
+            </div>
+
+            <div class="copyright-container">Copyright 2012 Strongbrook</div>
+
+        </div>
+    </form>
+</body>
+</html>
